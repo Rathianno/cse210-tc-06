@@ -15,7 +15,10 @@ class Player:
             self (Player): an instance of Player.
         """
         self._name = name
+        self._move=None
         
+    def get_move(self):
+        return self._move
 
     def get_name(self):
         """Returns the player's name.
@@ -25,3 +28,5 @@ class Player:
         """
         return self._name
 
+    def set_move(self, move):
+        self._move = move
