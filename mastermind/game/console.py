@@ -3,7 +3,7 @@ class console():
     def display_current_guesses(self,  player, player_guess, hint):
         print("Player" + player + ": " + str(player_guess) + "," + hint)
     
-    def get_player_guess(self, player):
+    def get_player_guess(self, player, guess):
         print(player + "'s turn: ")
         guessdoesntwork = True
             while guessdoesntwork:
